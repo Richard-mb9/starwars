@@ -2,7 +2,9 @@ Um Back baseado no filme Star Wars, e integrado API Swap.co
 
 nele é possivel Adicionar os Planetas no Banco de dados Manualmente, consulta-los pelo id que é gerado pelo banco de dados automaticamente como string, pequisar os planetas que você cadastrou por nome, e caso o planeta cadastrado tenha aparecido em algum filme, você vera tambem quais filmes foram, e tambem é possivel deletar os planetas.
 
-é necessario realizar as alterações das credencias do banco de dados no arquivo application.properties
+
+#configuração do banco de dados
+é necessario realizar as alterações das credencias do banco de dados no arquivo application.properties, foi utilizado o mongodb, e o banco de dados deve possuir uma collection com o nome planetas
 
 
 
