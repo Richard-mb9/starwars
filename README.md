@@ -15,9 +15,12 @@ nome = nome do Planeta<br/>
 clima = clima do planeta<br/>
 Terreno = com o tipo de terreno do planeta<br/>
 
+
 os dados devem estar no formato json e devem ser enviados no corpo da requisição.
 caso os objetos tenham sido salvos o servidor ira retornar o status 201 junto com o endereço do novo planeta cadastrado.
 
+
+#Listar todos os Planetas - GET /planetas/<br/>
 
 #Consulta por id - GET /planetas/{id}
 Para Consultar dederminado Planeta por id deve ser enviada uma requisição GET para a url "/planetas/{id}/"
