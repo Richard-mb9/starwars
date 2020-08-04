@@ -37,16 +37,16 @@ Caso o id exita ira retornar um objeto json parecido com o objeto abaixo
 #Pesquisa pelo nome - GET /planetas/search?nome= + nome do planeta, ou parte do nome.<br/>
 Para fazer Uma Pesquisa pelo nome do planeta, basta enviar uma requisição GET para a url "/planetas/search?nome=" + o nome ou parte do nome do planeta de interesse, caso exista algum planeta cadastrado com os dados da pesquisa você ira receber um Json como o Abaixo:<br/>
 
-[
-    {
-        "id": "id do planeta no formato de uma string",
-        "nome": "Nome do planeta",
-        "clima": "tipo de clima do planeta",
-        "terreno": "tipo de terreno do planeta",
-        "filmes": ["Lista com filmes em que o planeta apareceu",
-        "caso ele não tenha aparecido em nenhum esta lista vira vazia]
-    }
-]
+[<br/>
+    {<br/>
+        "id": "id do planeta no formato de uma string",<br/>
+        "nome": "Nome do planeta",<br/>
+        "clima": "tipo de clima do planeta",<br/>
+        "terreno": "tipo de terreno do planeta",<br/>
+        "filmes": ["Lista com filmes em que o planeta apareceu",<br/>
+        "caso ele não tenha aparecido em nenhum esta lista vira vazia]<br/>
+    }<br/>
+]<br/>
 
 #Deletar um Planeta - DELETE /planetas/{id}<br/>
 Para deletar um planeta basta você enviar uma requisição com o metodo delete para a url "/planeta/{id}"
