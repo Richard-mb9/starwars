@@ -22,7 +22,7 @@ caso os objetos tenham sido salvos o servidor ira retornar o status 201 junto co
 
 #Listar todos os Planetas - GET /planetas/<br/>
 
-#Consulta por id - GET /planetas/{id}
+#Consulta por id - GET /planetas/{id}<br/>
 Para Consultar dederminado Planeta por id deve ser enviada uma requisição GET para a url "/planetas/{id}/"
 
 Caso o id exita ira retornar um objeto json parecido com o objeto abaixo
